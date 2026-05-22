@@ -6,7 +6,7 @@ type HomePageProps = {
 
 export default function HomePageView({column1, column2, column3}: HomePageProps) {
     return <>
-    <div className="grid grid-cols-3">
+    <div className="grid grid-cols-3 gap-10">
         <div>
             <h1>{column1}</h1>
         </div>
